@@ -22,25 +22,15 @@ ui/ → PyQt5 UI files
 database/ → SQLite database
 screenshots → application screenshots
 
-markdown
-Kodu kopyala
-
 ## How to Run
 1. Clone the repository:
 git clone https://github.com/Dreemurr00/student-information-system-pyqt.git
 
-csharp
-Kodu kopyala
 2. Install required dependencies:
 pip install PyQt5
 
-markdown
-Kodu kopyala
 3. Run the application:
 python src/uygulama_v1.py
-
-markdown
-Kodu kopyala
 
 ## Screenshots
 Screenshots of the application interface can be found in the `screenshots/` folder.
