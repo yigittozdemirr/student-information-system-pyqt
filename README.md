@@ -1,40 +1,40 @@
-# Student Information System (PyQt5)
+# Öğrenci Bilgi Sistemi (PyQt5)
 
-This is a desktop application developed using **Python** and **PyQt5** as part of a university software engineering course.  
-The system allows administrators and students to manage academic information in a simple and structured way.
+Bu proje, bir üniversitenin yazılım mühendisliği dersi kapsamında **Python** ve **PyQt5** kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.  
+Sistem, yöneticilerin ve öğrencilerin akademik bilgileri basit ve düzenli bir şekilde yönetmesine olanak sağlar.
 
-## Features
-- Admin and student login system
-- Student registration, update, and deletion
-- Course and grade management
-- GPA (Grade Point Average) calculation
-- SQLite database integration
-- Desktop GUI built with PyQt5
+## Özellikler
+- Yönetici ve öğrenci giriş sistemi
+- Öğrenci ekleme, güncelleme ve silme
+- Ders ve not yönetimi
+- GPA (Genel Not Ortalaması) hesaplama
+- SQLite veritabanı entegrasyonu
+- PyQt5 ile geliştirilmiş masaüstü arayüz
 
-## Technologies Used
+## Kullanılan Teknolojiler
 - Python
 - PyQt5
 - SQLite
 
-## Project Structure
-src/ → application source code
-ui/ → PyQt5 UI files
-database/ → SQLite database
-screenshots → application screenshots
+## Proje Yapısı
+src/ → uygulama kaynak kodları  
+ui/ → PyQt5 arayüz dosyaları  
+database/ → SQLite veritabanı  
+screenshots/ → uygulama ekran görüntüleri  
 
-## How to Run
-1. Clone the repository:
+## Nasıl Çalıştırılır
+1. Depoyu klonlayın:
 git clone https://github.com/Dreemurr00/student-information-system-pyqt.git
 
-2. Install required dependencies:
+2. Gerekli bağımlılıkları yükleyin:
 pip install PyQt5
 
-3. Run the application:
+3. Uygulamayı çalıştırın:
 python src/uygulama_v1.py
 
-## Screenshots
-Screenshots of the application interface can be found in the `screenshots/` folder.
+## Ekran Görüntüleri
+Uygulama arayüzüne ait ekran görüntülerini `screenshots/` klasöründe bulabilirsiniz.
 
-## Author
+## Yazar
 **Yiğit Özdemir**  
-Software Engineering Student
+Yazılım Mühendisliği Öğrencisi
