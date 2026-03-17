@@ -1,40 +1,45 @@
-# Öğrenci Bilgi Sistemi (PyQt5)
+# 🎓 Student Management System (PyQt5)
 
-Bu proje, bir üniversitenin yazılım mühendisliği dersi kapsamında **Python** ve **PyQt5** kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.  
-Sistem, yöneticilerin ve öğrencilerin akademik bilgileri basit ve düzenli bir şekilde yönetmesine olanak sağlar.
+A desktop-based Student Information System developed with **Python** and **PyQt5**. This application provides a streamlined interface for administrators and students to manage academic records, grades, and profiles.
 
-## Özellikler
-- Yönetici ve öğrenci giriş sistemi
-- Öğrenci ekleme, güncelleme ve silme
-- Ders ve not yönetimi
-- GPA (Genel Not Ortalaması) hesaplama
-- SQLite veritabanı entegrasyonu
-- PyQt5 ile geliştirilmiş masaüstü arayüz
+## ✨ Key Features
+- **Dual-Role Authentication:** Separate login systems for Administrators and Students.
+- **Student CRUD:** Full create, read, update, and delete functionality for student records.
+- **Academic Management:** Manage courses, track grades, and auto-calculate GPA.
+- **Persistent Storage:** Integrated with **SQLite** for reliable data management.
+- **Modern GUI:** Clean desktop interface built with PyQt5.
 
-## Kullanılan Teknolojiler
-- Python
-- PyQt5
-- SQLite
+## 🛠️ Tech Stack
+- **Language:** Python
+- **GUI Framework:** PyQt5
+- **Database:** SQLite
 
-## Proje Yapısı
-src/ → uygulama kaynak kodları  
-ui/ → PyQt5 arayüz dosyaları  
-database/ → SQLite veritabanı  
-screenshots/ → uygulama ekran görüntüleri  
+## 📁 Project Structure
+```text
+.
+├── src/             # Application source code
+├── ui/              # PyQt5 UI design files
+├── database/        # SQLite database files
+├── screenshots/     # UI preview images
+└── README.md
+```
 
-## Nasıl Çalıştırılır
-1. Depoyu klonlayın:
-git clone https://github.com/Dreemurr00/student-information-system-pyqt.git
+## 🚀 Getting Started
+## 1. Clone the repository
+```bash
+git clone [https://github.com/Dreemurr00/student-information-system-pyqt.git](https://github.com/Dreemurr00/student-information-system-pyqt.git)
+```
 
-2. Gerekli bağımlılıkları yükleyin:
+## 2. Install dependencies
+```bash 
 pip install PyQt5
+```
 
-3. Uygulamayı çalıştırın:
+## 3. Run the application
+```bash
 python src/uygulama_v1.py
+```
 
-## Ekran Görüntüleri
-Uygulama arayüzüne ait ekran görüntülerini `screenshots/` klasöründe bulabilirsiniz.
 
-## Yazar
-**Yiğit Özdemir**  
-Yazılım Mühendisliği Öğrencisi
+Author: [Yiğit Özdemir](https://github.com/yigittozdemirr)
+Software Engineering Student
